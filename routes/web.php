@@ -18,7 +18,12 @@ Route::get('/Cmd1', [BeersController::class, 'try']);
 
 // NAVIGATION CONROLLER ROUTES
 Route::get('/aboutus',  [NavController::class,'aboutus'])   ->name('AboutUs');
-Route::get('/login',    [NavController::class,'Login'])     ->name('Login');
+
+
+//Route::get('/login',    [NavController::class,'Login'])     ->name('Login');
+
+Route::get('/admin', [NavController::class,'Admin'] )->middleware('auth.basic')->name('Login');
+
 Route::get('/beers/fav', [NavController::class,'FavBeers']) ->name('FavBeers');
 Route::get('/pubs/fav', [NavController::class,'FavPubs']) ->name('FavPubs');
 

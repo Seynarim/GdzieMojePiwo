@@ -10,7 +10,7 @@ class NavController extends Controller
         return view('Home');
     }
     public function Admin(){
-        return view('Admin');
+        return view('admin.index');
     }
 
     public function Pubs(){
