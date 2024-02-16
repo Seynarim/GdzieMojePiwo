@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('Layouts.Master')
 
 @section('content')
     <!-- Góra ekranu -->

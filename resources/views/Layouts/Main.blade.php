@@ -8,7 +8,7 @@
 
 <body class="flex flex-col h-screen">
     <header class="row">
-        @include('includes.header')
+        @include('Includes.Header')
     </header>
     <div id="main" class="row flex-grow">
         @yield('content')

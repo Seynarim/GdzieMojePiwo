@@ -1,5 +1,5 @@
 <!-- HOME -->
-@extends('layouts.main')
+@extends('Layouts.Main')
 
 @section('content')
 

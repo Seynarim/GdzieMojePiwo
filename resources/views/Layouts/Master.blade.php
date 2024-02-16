@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     @vite(['resources/css/app.css','resources/js/app.js'])
-    @include('includes.Head')
+    @include('Includes.Head')
 </head>
 
 <body class="flex flex-col h-screen">
